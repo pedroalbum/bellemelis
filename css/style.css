@@ -76,7 +76,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #922307ee;
+  background: #922307;
   overflow-y: auto;
 }
 
@@ -103,10 +103,11 @@ h6 {
   text-decoration: none;
 }
 
-#header .profile .social-links a {
+#header .profile .social-links a {    /*------------# NavigationMenu---------------*/
+  
   font-size: 18px;
   display: inline-block;
-  background: #360c07;
+  background: #612119;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -116,12 +117,14 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
+  border: #360c07 solid 1px;
 }
 
 #header .profile .social-links a:hover {
-  background: #7c1c11;
+  background: #360c07;
   color: #fff;
   text-decoration: none;
+ 
 }
 
 #main {
@@ -169,22 +172,43 @@ h6 {
   white-space: nowrap;
 }
 
-.nav-menu a,
-.nav-menu a:focus {
+.nav-menu teste,                    /*------------------------------# icones do menu------------------------------------------*/
+.nav-menu teste:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #80808300;  /*------------------------------# icones desativado------------------------------------------*/
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  padding: 12px 20px;
+}
+
+.nav-list li {
+  margin-bottom: 20px;
+}
+
+.nav-menu a,                    /*------------------------------# icones do menu------------------------------------------*/
+.nav-menu a:focus {
+  display: flex;
+  align-items: center;
+  color: #808083;  /*------------------------------# icones desativado------------------------------------------*/
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  transition: 0.3s;
+  font-size: 15px;
+  padding: 12px 20px;
+  background-color: #fff3e0; /* Cor de fundo */
+  border-radius: 10px; /* Arredondamento das bordas */  
+  
+
 }
 
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #612119;
 }
 
 .nav-menu a:hover,
@@ -192,7 +216,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: #360c07;  /*------------------------------# icone ativado------------------------------------------*/
 }
 
 .nav-menu a:hover i,
@@ -236,10 +260,11 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
-  height: 100vh;
-  background: url("../img/hero-bg2.jpg") top center;
-  background-size: cover;
+  width: 100%; /*largura*/
+  height: 100vh; /*comprimento*/
+  background: url("../img/livraria.fn-transformed.jpeg") top right;
+  background-size: 85%; 
+
 }
 
 #hero:before {
