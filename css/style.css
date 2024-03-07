@@ -127,6 +127,12 @@ h6 {
  
 }
 
+.about .sobre-title {
+  color: black; /* Cor do texto */
+  text-decoration-color: #360c07; /* Cor do sublinhado */
+}
+
+
 #main {
   margin-left: 300px;
 }
@@ -303,7 +309,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #612119;
 }
 
 @media (min-width: 1024px) {
@@ -341,22 +347,22 @@ section {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+.section-title h2 {   /* estilo titulos H2 */
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #000000;
 }
 
-.section-title h2::after {
+.section-title h2::after {    /* estilo sublinhado titulos H2 */
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 90px;
   height: 3px;
-  background: #149ddd;
+  background: #612119;
   bottom: 0;
   left: 0;
 }
@@ -371,7 +377,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #612119;
 }
 
 .about .content ul {
@@ -392,7 +398,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #360c07;
   line-height: 0;
 }
 
@@ -415,9 +421,14 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #360c07;
   float: left;
   line-height: 0;
+  background-color: #fff3e0;
+  padding: 8px 10px;
+  border-radius: 50%;
+  border: #360c07 solid 1px;
+  margin-right: 10px;
 }
 
 .facts .count-box span {
@@ -427,6 +438,7 @@ section {
   font-weight: 700;
   color: #050d18;
   margin-left: 60px;
+  
 }
 
 .facts .count-box p {
@@ -514,7 +526,9 @@ section {
   font-family: "Poppins", sans-serif;
   color: #050d18;
   margin-bottom: 10px;
+
 }
+
 
 .resume .resume-item h5 {
   font-size: 16px;
