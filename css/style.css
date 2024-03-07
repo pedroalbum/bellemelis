@@ -340,7 +340,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #fff3e0;
 }
 
 .section-title {
@@ -464,7 +464,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# kills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -489,7 +489,7 @@ section {
 }
 
 .skills .progress-bar-wrap {
-  background: #dce8f8;
+  background: #883328;
   height: 10px;
 }
 
@@ -497,7 +497,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #360c07;
 }
 
 /*--------------------------------------------------------------
