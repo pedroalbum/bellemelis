@@ -40,7 +40,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #922307;
+  background: #612119;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -743,10 +743,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #773127;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #360c07;
 }
 
 .services .icon i {
@@ -756,11 +756,11 @@ section {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #360c07;
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #ffffff;
 }
 
 .services .title {
@@ -819,7 +819,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #773127;
   font-size: 26px;
 }
 
@@ -834,6 +834,12 @@ section {
   right: -5px;
   position: relative;
   top: 10px;
+}
+
+
+.testimonials .testimonial-img {
+  width: 100px; /* Defina a largura desejada para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 .testimonials .testimonial-item p {
@@ -869,11 +875,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #360c07;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #360c07;
 }
 
 /*--------------------------------------------------------------
@@ -1119,7 +1125,7 @@ section {
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #220704;
 }
 
 #footer .copyright {
@@ -1139,4 +1145,9 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+#footer .author-link {
+  color: #fff3e0;
+  text-decoration: none;
 }
