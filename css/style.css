@@ -898,11 +898,11 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #fff;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #773127;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -922,7 +922,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #000000;
 }
 
 .contact .info .email p {
@@ -936,7 +936,7 @@ section {
 .contact .info .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: #ff0000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -949,14 +949,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #dd2114;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #360c07;
   color: #fff;
 }
 
@@ -1015,7 +1015,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ffffff;
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
 }
@@ -1044,7 +1044,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #773127;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1053,7 +1053,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #360c07;
 }
 
 @keyframes animate-loading {
